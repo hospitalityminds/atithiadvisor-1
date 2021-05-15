@@ -1,0 +1,137 @@
+:root{
+    --main-color: #ffc800;
+    --title-color: #ffffff;
+    --bold-color:#575151;
+    --text-color:#00095e;
+}
+
+
+
+
+.header-area{
+    padding: 10px 0;
+}
+
+.logo img{
+    max-width: 70px;
+}
+
+.second-menu .row{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-outlay{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: 1px solid #ffc800;
+    padding: 15px 20px;
+    width: auto;
+    transition: ease-in;
+}
+
+.box-outlay i{
+    padding-left: 13px;
+    font-size: 14px;
+}
+
+.box-outlay p{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    color: #000;
+    
+}
+.box-outlay:hover{
+    background-color: #ffc800;
+    color: white ;
+    transition: ease-in 0.3s;
+}
+
+.box-outlay button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+
+/* ****************************  Sidebar  start  ****************************** */
+
+.section-1{
+    padding: 50px 20px;
+}
+
+.slider-area{
+    background: #f3f169;
+    background: var(--main-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.slider-area h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color:var(--text-color);
+}
+
+.slider-area h2{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.slider-area ul{
+    /* width: 200px; */
+    padding: 10px 0;
+}
+
+.slider-area ul li{
+    display: flex;
+    padding: 2px 0;
+    justify-content: space-between;
+}
+
+
+.slider-area ul li strong{
+   text-transform: capitalize;
+}
+
+.slider-area ul li span{
+   color: var(--text-color);
+   font-weight: 800;
+   padding-right: 50px;
+}
+
+.hero__caption{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+}
+
+.hero__caption h1{
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.hero__caption p{
+    font-weight: 600;
+    color: var(--bold-color);
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
